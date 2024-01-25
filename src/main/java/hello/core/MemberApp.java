@@ -32,5 +32,5 @@ public class MemberApp {
         System.out.println("find한 new 멤버 : " + findMember.getName());
 
     }
-//re
+//re test
 }
