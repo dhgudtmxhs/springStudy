@@ -20,7 +20,7 @@ public class MemberApp {
                                                             // AppConfig에있는 @Bean을 등록하고 관리해준다.
 
         MemberService memberService = applicationContext.getBean("memberService", MemberService.class);
-                                                                 // getBean(찾을 객체 이름, 타입) - 기본적으로 메서드 이름으로 등록됨
+                                                                 //getBean(찾을 객체 이름, 타입) - 기본적으로 메서드 이름으로 등록됨
 
         Member member = new Member(1L, "memberA", Grade.VIP);
 
